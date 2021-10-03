@@ -6,7 +6,7 @@ int main()
     cin >> t;
     while (t--)
     {
-        int d = 120;
+        int e = 120;
         int count = 0;
         int n;
         cin >> n;
@@ -15,7 +15,7 @@ int main()
         {
             cin >> a[i];
         }
-        if ((d - n) >= 90)
+        if ((e - n) >= 90)
         {
             cout << "Yes";
             //flag=1;
@@ -29,7 +29,7 @@ int main()
                     count++;
                 }
             }
-            if (count + (d - n) >= 90)
+            if (count + (e - n) >= 90)
             {
                 cout << "Yes";
             }
